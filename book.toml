@@ -1,7 +1,7 @@
 [book]
 language = "th"
 title = "Learning Rust With Entirely Too Many Linked Lists (ฉบับภาษาไทย)"
-author = "Aria Desires"
+authors = ["Aria Desires"]
 description = "Learning Rust With Entirely Too Many Linked Lists (ฉบับภาษาไทย)"
 
 [build]

@@ -1,0 +1,16 @@
+[book]
+language = "th"
+title = "Learning Rust With Entirely Too Many Linked Lists (ฉบับภาษาไทย)"
+author = "Aria Desires"
+description = "Learning Rust With Entirely Too Many Linked Lists (ฉบับภาษาไทย)"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/suradet-ps/too-many-th/tree/main/src"
+edit-url-template = "https://github.com/suradet-ps/too-many-th/edit/main/src/{path}"
+
+[output.html.search]
+limit-results = 30

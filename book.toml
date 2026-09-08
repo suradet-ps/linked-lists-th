@@ -10,7 +10,7 @@ create-missing = false
 
 [output.html]
 git-repository-url = "https://github.com/suradet-ps/linked-lists-th/tree/main/src"
-edit-url-template = "https://github.com/suradet-ps/linked-lists-th/edit/main/src/{path}"
+edit-url-template = "https://github.com/suradet-ps/linked-lists-th/edit/main/{path}"
 
 [output.html.search]
 limit-results = 30

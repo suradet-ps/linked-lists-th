@@ -1,22 +1,22 @@
-# too-many-th
+# linked-lists-th
 
 ```
- ████████╗ ██████╗  ██████╗     ███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗    ████████╗██╗  ██╗
- ╚══██╔══╝██╔═══██╗██╔═══██╗    ████╗ ████║██╔══██╗████╗  ██║╚██╗ ██╔╝    ╚══██╔══╝██║  ██║
-    ██║   ██║   ██║██║   ██║    ██╔████╔██║███████║██╔██╗ ██║ ╚████╔╝        ██║   ███████║
-    ██║   ██║   ██║██║   ██║    ██║╚██╔╝██║██╔══██║██║╚██╗██║  ╚██╔╝         ██║   ██╔══██║
-    ██║   ╚██████╔╝╚██████╔╝    ██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║          ██║   ██║  ██║
-    ╚═╝    ╚═════╝  ╚═════╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝          ╚═╝   ╚═╝  ╚═╝
+██╗     ██╗███╗   ██╗██╗  ██╗███████╗██████╗     ██╗     ██╗███████╗████████╗███████╗    ████████╗██╗  ██╗
+██║     ██║████╗  ██║██║ ██╔╝██╔════╝██╔══██╗    ██║     ██║██╔════╝╚══██╔══╝██╔════╝    ╚══██╔══╝██║  ██║
+██║     ██║██╔██╗ ██║█████╔╝ █████╗  ██║  ██║    ██║     ██║███████╗   ██║   ███████╗       ██║   ███████║
+██║     ██║██║╚██╗██║██╔═██╗ ██╔══╝  ██║  ██║    ██║     ██║╚════██║   ██║   ╚════██║       ██║   ██╔══██║
+███████╗██║██║ ╚████║██║  ██╗███████╗██████╔╝    ███████╗██║███████║   ██║   ███████║       ██║   ██║  ██║
+╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═════╝     ╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝       ╚═╝   ╚═╝  ╚═╝
 ```
 
 ---
 
 ## ◆ PULSE
 
-[![GitHub Pages](https://img.shields.io/badge/Pages-live-2ea44f)](https://suradet-ps.github.io/too-many-th/)
+[![GitHub Pages](https://img.shields.io/badge/Pages-live-2ea44f)](https://suradet-ps.github.io/linked-lists-th/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#-anatomy)
 
-A linked list has one head, and one nightmare - too-many-th is the Thai
+A linked list has one head, and one nightmare - linked-lists-th is the Thai
 bridge to that exact nightmare. This is the complete Thai translation of
 the official `Learning Rust With Entirely Too Many Linked Lists` book: 58
 pages built with mdbook, terminology locked by a single glossary, and
@@ -24,9 +24,9 @@ every code block byte-identical to the original. The links are checked
 against the built book, the structure mirrors the upstream repo
 file-for-file, and the license travels with the text. Built for the
 Thai-speaking student of Rust:
-[suradet-ps.github.io/too-many-th](https://suradet-ps.github.io/too-many-th/).
+[suradet-ps.github.io/linked-lists-th](https://suradet-ps.github.io/linked-lists-th/).
 
-| แปลครบ 58 หน้า ▣ | Glossary ▣ | ลิงก์ทั้งหมดผ่าน ▣ | Build ผ่าน ▣ |
+| All 58 pages translated ▣ | Glossary ▣ | All links verified ▣ | Build passes ▣ |
 |---|---|---|---|
 
 *v1.0.0 - translation, glossary, verification, and the static build
@@ -46,8 +46,8 @@ are all sealed.*
 One runtime, three commands.
 
 ```
-⟫ git clone https://github.com/suradet-ps/too-many-th.git
-⟫ cd too-many-th
+⟫ git clone https://github.com/suradet-ps/linked-lists-th.git
+⟫ cd linked-lists-th
 ⟫ cargo install mdbook
 ⟫ mdbook serve --open
 ```
@@ -85,9 +85,8 @@ One stack of lists, zero custom JS, several quiet helpers.
   bad stack, an ok stack, a persistent stack, a bad safe deque, an ok
   unsafe queue, a production unsafe deque - and a bonus chapter of silly
   lists - Thai prose over untouched code.
-- **Glossaries** - `GLOSSARY.md` locks the vocabulary (ownership =
-  ความเป็นเจ้าของ, node = โหนด, reference = เรเฟอเรนซ์), so the sixth
-  chapter agrees with the first.
+- **Glossaries** - `GLOSSARY.md` locks the vocabulary (e.g. ownership,
+  node, reference), so the sixth chapter agrees with the first.
 - **Verifies** - `scripts/verify-translation.ps1` diffs every code
   block, heading level, and link target against upstream
   `too-many-lists` - byte-exact or it does not pass.
@@ -106,7 +105,7 @@ One stack of lists, zero custom JS, several quiet helpers.
 
 1. Open a chapter in `src/`. The upstream `too-many-lists` repo sits
    beside it (clone `https://github.com/rust-unofficial/too-many-lists`
-   alongside `too-many-th`) - structure is a contract.
+   alongside `linked-lists-th`) - structure is a contract.
 2. Translate the prose; keep every code block and command as the
    original wrote it.
 3. Consult `GLOSSARY.md` for every term that already has a canon. New
@@ -115,9 +114,9 @@ One stack of lists, zero custom JS, several quiet helpers.
    and the anchors resolve.
 
 **The ceremony of the anchor** - mdbook slugs strip Thai tone marks
-(`การจับคู่แพตเทิร์น` becomes `การจับคูแพตเทิรน`). Anchors are read from
-the built HTML, written into the source, and re-verified - a guessed
-anchor is a broken link waiting to happen.
+from Thai headings. Anchors are read from the built HTML, written into
+the source, and re-verified - a guessed anchor is a broken link waiting
+to happen.
 
 **The ceremony of the code block** - a translated command that is not
 byte-identical to the original is a regression, not a translation. The
@@ -150,8 +149,8 @@ pages + `SUMMARY.md`), and the link checker must report
 
 ```
   ─────────────────────────────────────────
-   ทุกลิงก์ลิสต์มีหัวของมัน
-   ทุกหนังสือมีสแต็กของมัน
+   Every linked list has its head
+   Every book has its stack
   ─────────────────────────────────────────
 ```
 

@@ -56,5 +56,5 @@
     * [การทดสอบเคอร์เซอร์](sixth-cursors-testing.md)
     * [โค้ดสุดท้าย](sixth-final.md)
 * [ลิสต์โง่ ๆ อีกเพียบ](infinity.md)
-    * [เดเบิลซิงเกิล (Double Single)](infinity-double-single.md)
+    * [ดับเบิลซิงเกิล (Double Single)](infinity-double-single.md)
     * [ลิงก์ลิสต์บนสแต็ก](infinity-stack-allocated.md)

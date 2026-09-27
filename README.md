@@ -1,20 +1,13 @@
 # linked-lists-th
 
-```
-██╗     ██╗███╗   ██╗██╗  ██╗███████╗██████╗             ██╗     ██╗███████╗████████╗███████╗         ████████╗██╗  ██╗
-██║     ██║████╗  ██║██║ ██╔╝██╔════╝██╔══██╗            ██║     ██║██╔════╝╚══██╔══╝██╔════╝         ╚══██╔══╝██║  ██║
-██║     ██║██╔██╗ ██║█████╔╝ █████╗  ██║  ██║   █████╗   ██║     ██║███████╗   ██║   ███████╗   █████╗   ██║   ███████║
-██║     ██║██║╚██╗██║██╔═██╗ ██╔══╝  ██║  ██║   ╚════╝   ██║     ██║╚════██║   ██║   ╚════██║   ╚════╝   ██║   ██╔══██║
-███████╗██║██║ ╚████║██║  ██╗███████╗██████╔╝            ███████╗██║███████║   ██║   ███████║            ██║   ██║  ██║
-╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═════╝             ╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝            ╚═╝   ╚═╝  ╚═╝
-```
+[![Deploy](https://github.com/suradet-ps/linked-lists-th/actions/workflows/docs.yml/badge.svg)](https://github.com/suradet-ps/linked-lists-th/actions/workflows/docs.yml)
+[![GitHub Pages](https://img.shields.io/badge/Pages-live-2ea44f)](https://suradet-ps.github.io/linked-lists-th/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license-MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/suradet-ps/linked-lists-th/issues)
 
 ---
 
 ## ◆ PULSE
-
-[![GitHub Pages](https://img.shields.io/badge/Pages-live-2ea44f)](https://suradet-ps.github.io/linked-lists-th/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#-anatomy)
 
 A linked list has one head, and one nightmare - linked-lists-th is the Thai
 bridge to that exact nightmare. This is the complete Thai translation of
